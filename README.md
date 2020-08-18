@@ -12,7 +12,7 @@ https://github.com/mahnazkoupaee/WikiHow-Dataset
 
 I have used the WikiHow Dataset that contains Heading(question) Summary(marking scheme) and long answer(answer) for articles. Considering these as the perfect grade 10. I have produced lower grades from these using data augmentation. For an Answer a probability 'p' for each sentence to be taken or ignored and grade set to p*10. Thus if the answer has approximately 50% of the perfect answer based on untampered marking scheme it is graded 5.
 
-#Loss
+# Loss
 
 ![model2_999](./plots/Both_model2_999.png)
 Train and Validation Loss for 999 data points
